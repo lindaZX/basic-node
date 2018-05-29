@@ -4,6 +4,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'node -v'
+        sleep 20
       }
     }
   }
